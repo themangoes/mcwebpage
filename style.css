@@ -1,0 +1,115 @@
+@font-face {
+  font-family: minceraft;
+  src: url(MinecraftTen-VGORe.ttf);
+}
+@font-face {
+  font-family: minceraft2;
+  src: url(MinecraftBold-nMK1.otf);
+}
+
+
+font.big:hover{
+ color:#7FC85D;
+}
+
+
+.row {
+ display: flex;
+}
+
+.column {
+ flex: 50%;
+ padding: 5px;
+ transition:0.2s
+}
+.column:hover{
+ flex:51%;
+ max-height:50%;
+ padding:0px;
+ transition:0.3s;
+}
+
+
+a{
+ color:#FFFFFF;
+ text-decoration:none;
+ transition:0.2s
+}
+a:hover{
+ font-size:16.5px; 
+ transition:0.2s;
+ color:#7FC85D;
+}
+
+
+
+hr.divider{
+ margin: 0.2em;
+ height: 4px;
+ border:none;
+ background-color:#2E160E;
+ border-width: 2px;
+ margin-left:-8px;
+ margin-right:-8px;
+}
+
+
+img{
+ margin-top:-3px;
+ margin-left:-8px;
+ margin-right:-3px;
+ max-width: 100%;
+ height: auto;
+ transition:0.2s
+}
+
+
+.icon{
+ margin-top:0px;
+ max-width:7%;
+ transition: 0.2s;
+}
+
+
+.title {
+ position:relative;
+ max-width: 40%;
+ top:40px;
+ z-index: 1;
+ transition:0.2s
+}
+.title:hover{
+ transition:0.2s;
+ position:relative;
+ max-width: 45%;
+ top:40px;
+ z-index: 1;
+}
+.bg {
+ position:absolute;
+ z-index:-2;
+}
+
+
+
+button{
+ border: 0px solid #FFFFFF;
+ font-family:minceraft2;
+ font-size:17px;
+ margin-top:10px;
+ margin-bottom:20px;
+ margin-left:1em;
+ color:lightgray;
+ background-color:#282828;
+ max-width:auto;
+ transition:0.2s
+}
+
+
+.btn{
+ transition:0.2s
+}
+.btn:hover{
+ color:#7FC85D;
+ transition:0.2s;
+}
